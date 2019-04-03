@@ -5,15 +5,20 @@
  * Author URI: http://www.brandio.io/
  * Copyright 2018 Brandio.
  -------------------------------------------------------------------*/
+
+
 /*------------------------------------------------------------------
 [Table of contents]
 
 1. General Styles.
 2. Responsive Styles.
 -------------------------------------------------------------------*/
+
+
 /* -----------------------------------
     1 - General Styles
 ------------------------------------*/
+
 .form-body {
     background-color: #008DA7;
 }
@@ -42,7 +47,7 @@
 }
 
 .website-logo .logo img {
-    width: 100px;
+    width: 300px;
 }
 
 .other-links span {
@@ -185,11 +190,13 @@
     background-color: #fff;
 }
 
-.form-content .page-links a:hover:after, .form-content .page-links a:focus:after {
+.form-content .page-links a:hover:after,
+.form-content .page-links a:focus:after {
     background-color: #fff;
 }
 
-.form-content input, .form-content .dropdown-toggle.btn-default {
+.form-content input,
+.form-content .dropdown-toggle.btn-default {
     border: 0;
     background-color: #fff;
     -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
@@ -197,7 +204,10 @@
     color: #8D8D8D;
 }
 
-.form-content input:hover, .form-content input:focus, .form-content .dropdown-toggle.btn-default:hover, .form-content .dropdown-toggle.btn-default:focus {
+.form-content input:hover,
+.form-content input:focus,
+.form-content .dropdown-toggle.btn-default:hover,
+.form-content .dropdown-toggle.btn-default:focus {
     border: 0;
     background-color: #ebeff8;
     color: #8D8D8D;
@@ -213,7 +223,8 @@
     color: #8D8D8D;
 }
 
-.form-content textarea:hover, .form-content textarea:focus {
+.form-content textarea:hover,
+.form-content textarea:focus {
     border: 0;
     background-color: #ebeff8;
     color: #8D8D8D;
@@ -221,38 +232,50 @@
     box-shadow: 0 0 0 rgba(0, 0, 0, 0);
 }
 
-.form-content input[type="checkbox"]:not(:checked) + label, .form-content input[type="checkbox"]:checked + label, .form-content input[type="radio"]:not(:checked) + label, .form-content input[type="radio"]:checked + label {
+.form-content input[type="checkbox"]:not(:checked)+label,
+.form-content input[type="checkbox"]:checked+label,
+.form-content input[type="radio"]:not(:checked)+label,
+.form-content input[type="radio"]:checked+label {
     color: #fff;
 }
 
-.form-content input[type="checkbox"]:checked + label, .form-content input[type="radio"]:checked + label {
+.form-content input[type="checkbox"]:checked+label,
+.form-content input[type="radio"]:checked+label {
     color: #fff;
 }
 
-.form-content input[type="checkbox"]:checked + label:before, .form-content input[type="radio"]:checked + label:before {
+.form-content input[type="checkbox"]:checked+label:before,
+.form-content input[type="radio"]:checked+label:before {
     background: #fff;
     border: 0px solid #fff;
 }
 
-.form-content input[type="checkbox"]:not(:checked) + label:before, .form-content input[type="radio"]:not(:checked) + label:before {
+.form-content input[type="checkbox"]:not(:checked)+label:before,
+.form-content input[type="radio"]:not(:checked)+label:before {
     background: transparent;
     border: 2px solid #fff;
 }
 
-.form-content input[type="checkbox"]:checked + label:after, .form-content input[type="checkbox"]:not(:checked) + label:after {
+.form-content input[type="checkbox"]:checked+label:after,
+.form-content input[type="checkbox"]:not(:checked)+label:after {
     color: #007AFF;
 }
 
-.form-content input[type="radio"]:checked + label:after, .form-content input[type="radio"]:not(:checked) + label:after {
+.form-content input[type="radio"]:checked+label:after,
+.form-content input[type="radio"]:not(:checked)+label:after {
     background-color: #007AFF;
 }
 
-.form-content .custom-options input[type="checkbox"]:not(:checked) + label, .form-content .custom-options input[type="checkbox"]:checked + label, .form-content .custom-options input[type="radio"]:not(:checked) + label, .form-content .custom-options input[type="radio"]:checked + label {
+.form-content .custom-options input[type="checkbox"]:not(:checked)+label,
+.form-content .custom-options input[type="checkbox"]:checked+label,
+.form-content .custom-options input[type="radio"]:not(:checked)+label,
+.form-content .custom-options input[type="radio"]:checked+label {
     color: #606060;
     background-color: #F7F7F7;
 }
 
-.form-content .custom-options input[type="checkbox"]:checked + label, .form-content .custom-options input[type="radio"]:checked + label {
+.form-content .custom-options input[type="checkbox"]:checked+label,
+.form-content .custom-options input[type="radio"]:checked+label {
     color: #fff;
     background-color: #57D38C;
     -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.16);
@@ -266,7 +289,8 @@
     box-shadow: 0 0 0 rgba(0, 0, 0, 0);
 }
 
-.form-content .form-button .ibtn:hover, .form-content .form-button .ibtn:focus {
+.form-content .form-button .ibtn:hover,
+.form-content .form-button .ibtn:focus {
     -webkit-box-shadow: 0 5px 6px rgba(0, 0, 0, 0);
     box-shadow: 0 5px 6px rgba(0, 0, 0, 0);
     background-color: #43ce7e;
@@ -283,7 +307,8 @@
     box-shadow: 0 0 0 rgba(0, 0, 0, 0);
 }
 
-.form-content .btn.btn-primary:hover, .form-content .btn.btn-primary:focus {
+.form-content .btn.btn-primary:hover,
+.form-content .btn.btn-primary:focus {
     background-color: #4bd084;
     -webkit-box-shadow: 0 5px 6px rgba(0, 0, 0, 0);
     box-shadow: 0 5px 6px rgba(0, 0, 0, 0);
@@ -342,7 +367,6 @@
         -ms-transform: rotate(35deg) scale(2);
         transform: rotate(35deg) scale(2);
     }
-
     100% {
         background-color: rgba(255, 255, 255, 0.2);
         -webkit-transform: rotate(45deg) scale(1);
@@ -460,7 +484,8 @@
     color: #fff;
 }
 
-.alert a.alert-link, .alert a {
+.alert a.alert-link,
+.alert a {
     color: #fff;
 }
 
@@ -484,7 +509,8 @@
     background-color: #29A4FF;
 }
 
-.form-body.without-side .form-content .page-links a:hover:after, .form-body.without-side .form-content .page-links a:focus:after {
+.form-body.without-side .form-content .page-links a:hover:after,
+.form-body.without-side .form-content .page-links a:focus:after {
     background-color: #29A4FF;
 }
 
@@ -495,35 +521,34 @@
     box-shadow: 0 0 0 rgba(0, 0, 0, 0.16);
 }
 
-.form-body.without-side .form-content .form-button .ibtn:hover, .form-body.without-side .form-content .form-button .ibtn:focus {
+.form-body.without-side .form-content .form-button .ibtn:hover,
+.form-body.without-side .form-content .form-button .ibtn:focus {
     -webkit-box-shadow: 0 5px 6px rgba(0, 0, 0, 0.16);
     box-shadow: 0 5px 6px rgba(0, 0, 0, 0.16);
     background-color: #006ee6;
 }
 
+
 /* -----------------------------------
     2 - Responsive Styles
 ------------------------------------*/
+
 @media (max-width: 992px) {
     .img-holder {
         display: none;
     }
-
     .form-holder {
         margin-left: 0;
     }
-
     .website-logo {
         top: 50px;
         left: 50px;
         right: initial;
         bottom: initial;
     }
-
     .website-logo .logo {
         background-image: url("../images/logo-light.svg");
     }
-
     .form-body.without-side .website-logo .logo {
         background-image: url("../images/logo-light.svg");
     }
